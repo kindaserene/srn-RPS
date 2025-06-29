@@ -52,10 +52,8 @@ function playGame () {
     } else if (computerScore < humanScore) {
         console.log("You lose the game...");
     } else {
-        console.log("It's a tie. Wanna play again?")
+        console.log("It's a tie. Wanna play again?");
     }
 }
-// console.log(getComputerChoice());
-// console.log(getHumanChoice());
-// playRound()
+
 playGame()
