@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Yeseva+One&display=swap');
+
+body {
+    background-color: lightblue;
+    font-family: "EB Garamond", serif;   
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Yeseva One", serif;
+    font-size: 3rem;
+    color: #2c3e59;
+    margin-bottom: 30px;
+}
+
+#rock, #paper, #scissors {
+    font-size: 54px;
+    padding: 20px 25px;
+    margin: 20px 15px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 25px;
+}
+
+#rock:hover, #paper:hover, #scissors:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+#rock:disabled, #paper:disabled, #scissors:disabled {
+    cursor: not-allowed;
+    transform: none;
+}
+
+#final {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    padding: 10px 20px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.8);
+    min-width: 300px;
+    text-align: center;
+}
+
+#roundNo, #compScore, #humanScore {
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+#reset {
+    margin: 20px auto;
+    padding: 8px 20px;
+    display: block;
+    font-size: 14px;
+    border: none;
+    border-radius: 25px;
+    font-size: "EB Garamond", serif;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-weight: bold;
+}
